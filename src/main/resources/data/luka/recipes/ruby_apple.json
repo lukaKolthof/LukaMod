@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xdx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "luka:ruby"
+    },
+    "d":
+    {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "result":
+  {
+    "item": "luka:ruby_apple",
+    "count": 1
+  }
+}

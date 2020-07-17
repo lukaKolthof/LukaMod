@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ddd",
+    "xxd",
+    "xxd"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "luka:ruby_shard"
+    },
+    "d":
+    {
+      "item": "minecraft:air"
+    }
+  },
+  "result":
+  {
+    "item": "luka:ruby",
+    "count": 1
+  }
+}
