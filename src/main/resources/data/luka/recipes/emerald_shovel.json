@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "axa",
+    "ada",
+    "ada"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:emerald"
+    },
+    "d":
+    {
+      "item": "minecraft:stick"
+    },
+    "a":
+    {
+      "item": "minecraft:air"
+    }
+  },
+  "result":
+  {
+    "item": "luka:emerald_shovel",
+    "count": 1
+  }
+}

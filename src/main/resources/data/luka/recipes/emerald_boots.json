@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "aaa",
+    "xax",
+    "xax"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:emerald"
+    },
+    "a":
+    {
+      "item": "minecraft:air"
+    }
+  },
+  "result":
+  {
+    "item": "luka:emerald_boots",
+    "count": 1
+  }
+}

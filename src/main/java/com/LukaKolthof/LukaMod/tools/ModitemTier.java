@@ -11,6 +11,10 @@ public enum ModitemTier implements IItemTier {
     // 1 + basedamage
     RUBY(3, 808, 8.0f, 3.0f, 12, () -> {
         return Ingredient.fromItems(RegistryHandler.RUBY_SWORD.get());
+    }),
+
+    EMERALD(5, 908, 10.0f, 6.0f, 12, () -> {
+        return Ingredient.fromItems(RegistryHandler.EMERALD_SWORD.get());
     });
 
     private final int harvestLevel;

@@ -32,6 +32,8 @@ public class RegistryHandler {
     public static final RegistryObject<RubyApple> RUBY_APPLE = ITEMS.register("ruby_apple", RubyApple::new);
 
     //tools
+
+    //Ruby
     public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", () ->
             new SwordItem(ModitemTier.RUBY, 5, -2.4f, new Item.Properties().group(Tutorial.TAB)));
     public static final RegistryObject<PickaxeItem> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () ->
@@ -42,6 +44,18 @@ public class RegistryHandler {
             new HoeItem(ModitemTier.RUBY, 3, -2.4f, new Item.Properties().group(Tutorial.TAB)));
     public static final RegistryObject<ShovelItem> RUBY_SHOVEL = ITEMS.register("ruby_shovel", () ->
             new ShovelItem(ModitemTier.RUBY, 0, -1.4f, new Item.Properties().group(Tutorial.TAB)));
+
+    //Emerald
+    public static final RegistryObject<SwordItem> EMERALD_SWORD = ITEMS.register("emerald_sword", () ->
+            new SwordItem(ModitemTier.EMERALD, 6, -2.4f, new Item.Properties().group(Tutorial.TAB)));
+    public static final RegistryObject<PickaxeItem> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", () ->
+            new PickaxeItem(ModitemTier.EMERALD, 1, -1.4f, new Item.Properties().group(Tutorial.TAB)));
+    public static final RegistryObject<AxeItem> EMERALD_AXE = ITEMS.register("emerald_axe", () ->
+            new AxeItem(ModitemTier.EMERALD, 1, -1.4f, new Item.Properties().group(Tutorial.TAB)));
+    public static final RegistryObject<HoeItem> EMERALD_HOE = ITEMS.register("emerald_hoe", () ->
+            new HoeItem(ModitemTier.EMERALD, 4, -2.4f, new Item.Properties().group(Tutorial.TAB)));
+    public static final RegistryObject<ShovelItem> EMERALD_SHOVEL = ITEMS.register("emerald_shovel", () ->
+            new ShovelItem(ModitemTier.EMERALD, 1, -1.4f, new Item.Properties().group(Tutorial.TAB)));
 
     // Armor
     public static final RegistryObject<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet", () ->
@@ -55,6 +69,20 @@ public class RegistryHandler {
 
     public static final RegistryObject<ArmorItem> RUBY_BOOTS = ITEMS.register("ruby_boots", () ->
             new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.FEET, new Item.Properties().group(Tutorial.TAB)));
+
+    //Emerald
+
+    public static final RegistryObject<ArmorItem> EMERALD_HELMET = ITEMS.register("emerald_helmet", () ->
+            new ArmorItem(ModArmorMaterial.EMERALD, EquipmentSlotType.HEAD, new Item.Properties().group(Tutorial.TAB)));
+
+    public static final RegistryObject<ArmorItem> EMERALD_CHESTPLATE = ITEMS.register("emerald_chestplate", () ->
+            new ArmorItem(ModArmorMaterial.EMERALD, EquipmentSlotType.CHEST, new Item.Properties().group(Tutorial.TAB)));
+
+    public static final RegistryObject<ArmorItem> EMERALD_LEGGINGS = ITEMS.register("emerald_leggings", () ->
+            new ArmorItem(ModArmorMaterial.EMERALD, EquipmentSlotType.LEGS, new Item.Properties().group(Tutorial.TAB)));
+
+    public static final RegistryObject<ArmorItem> EMERALD_BOOTS = ITEMS.register("emerald_boots", () ->
+            new ArmorItem(ModArmorMaterial.EMERALD, EquipmentSlotType.FEET, new Item.Properties().group(Tutorial.TAB)));
 
     // BLock
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
